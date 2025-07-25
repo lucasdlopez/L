@@ -41,7 +41,7 @@ jobs:
     - name: Execute gradle build
       run: ./gradlew build    # Change this to build your mobile application
 
-    - name: Run Zimperium zScan
+    - name: Run imperium zScan
       uses: zimperium/zscanmarketplace@bfc6670f6648d796098c251ccefcfdb98983174d
       timeout-minutes: 60
       with:
